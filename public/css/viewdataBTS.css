@@ -1,0 +1,62 @@
+
+/*Daftar BTS*/
+
+.body
+{
+	background: hsl(65, 91%, 92%);
+}
+
+.navigasi
+{
+	background: hsl(27, 62%, 74%);
+	padding: 20px;
+}
+
+.pilihannavigasi 
+{
+	display: inline;
+	padding: 8px;
+	background-color: hsl(38, 57%, 76%);
+}
+
+.pilihannavigasi a{
+	text-decoration: none;
+	background-color: #B09B71;
+	padding: 3px;
+	color: black;
+}
+
+.pilihannavigasi a:hover{
+	background-color: white;
+	color: black;
+}
+
+table
+{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+td
+{
+	border-bottom: 1px solid rgb(255, 153, 0) ;
+	/* padding-top: 10px;
+	padding-bottom: 10px; */
+	padding: 10px 0 10px 10px;
+}
+
+td:first-child
+{
+	text-align: center;
+}
+
+td > a {
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a {
+	color: black;
+}

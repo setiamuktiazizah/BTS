@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    /* flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden; */
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: fixed;
+}
+
+main {
+    position: absolute;
+    left: 18vw;
+    width: 82vw;
+    background-color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.active-link {
+    color: #888888;
+}
+
+.header {
+    height: 6vh;
+}
+
+.dropdown-toggle { outline: 0; }
+
+#profileHover {
+    z-index: 1;
+}
